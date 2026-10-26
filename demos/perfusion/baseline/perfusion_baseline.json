@@ -514,24 +514,7 @@
                 4
             ]
         },
-        "perfusion": {
-            "perfusion_percent": [
-                {
-                    "LAD": 100,
-                    "LCX": 100,
-                    "RCA": 100
-                }
-            ],
-            "territory_outputs": [
-                {
-                    "J4": true,
-                    "k_4_0": true,
-                    "k_4_1": true,
-                    "k_1": true,
-                    "active_stress": true
-                }
-            ]
-        }
+        "perfusion": {}
     },
     "heart_rate": {
         "t_active_period": [
@@ -547,13 +530,13 @@
     "output_handler": {
         "mesh_object_to_save": [],
         "mesh_output_path": [
-            "/mnt/gpfs2_4m/scratch/aga409/perfusion_baseline/sim_output/"
+            "/mnt/gpfs2_4m/scratch/aga409/test/sim_output/"
         ],
         "dumping_spatial_in_average": [
             false
         ],
         "output_data_path": [
-            "/mnt/gpfs2_4m/scratch/aga409/perfusion_baseline/sim_output/data.csv"
+            "/mnt/gpfs2_4m/scratch/aga409/test/sim_output/data.csv"
         ],
         "frequency_n": [
             10
@@ -566,13 +549,13 @@
                     false
                 ],
                 "rel_tol": [
-                    0.0001
+                    1e-04
                 ],
                 "max_iter": [
                     100
                 ],
                 "abs_tol": [
-                    0.0001
+                    1e-04
                 ]
             }
         },
